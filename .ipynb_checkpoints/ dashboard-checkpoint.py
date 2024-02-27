@@ -18,7 +18,7 @@ app.layout = html.Div(children=[
         Dash: A web application framework for my data. '''),
 
     dcc.Graph(
-        id='',
+        id='example',
         figure=fig
     )
 ])
